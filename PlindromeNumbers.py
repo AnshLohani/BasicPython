@@ -1,3 +1,7 @@
+#Python program to check if a number is Palindrome or not.
+#Palindrome numbers: Numbers which are exactly the same when reversed. Example: 121 , 234432 . If we reverse these numbers, we get the same numbers!
+
+
 def checkPalindrome(number):
     number_string = str(number)
     if number_string == number_string[-1::-1]:
